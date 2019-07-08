@@ -1,0 +1,15 @@
+{
+    "name": "mongjja106/game-life",
+    "description": "allGameSite",
+    "require": {
+        "jenssegers/blade": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Entrance\\" : "Web/"
+        }
+    },
+    "_comment": [
+        "psr-4 추가 시 꼭 composer dump-autoload 작성"
+    ]
+}
