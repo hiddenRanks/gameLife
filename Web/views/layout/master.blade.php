@@ -60,7 +60,7 @@
             </div>
 
             <div class="login-info">
-                @if(isset($_SESSION['user']))
+                @if(!isset($_SESSION['user']))
                 <div class="login-box">
                     <a href="/login">로그인</a>
                 </div class="login-box">
@@ -83,7 +83,7 @@
                             <a href="#">내 게시물</a>
                         </li>
                         <li>
-                            <a href="#"></a>
+                            <a href="#">추천</a>
                         </li>
                     </ul>
                 </div>
