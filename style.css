@@ -232,54 +232,74 @@ header {
     background-color: #ffa75a;
     border-radius: 1px;
     padding-left: 10px;
-    font-size: 15px;
-    font-weight: 700;
+}
+
+.review-head > a {
+    font-size: 14px;
+    font-weight: bold;
     color: #000;
 }
 /* 리뷰 전체 설정 끝 */
 
-/* 리뷰 설정 */
+/* 리뷰 가로 길이 */
 .review-box {
     width: 100%;
 }
+/* 리뷰 가로 길이 끝 */
 
-.review-box > ul > li {
+/* 리뷰 설정: 인기 */
+#reviews > .top-review {
+    width: 50%;
+}
+
+.review-box > .top-review-box > li {
     width: 100%;
-    height: 140px;
+    height: 130px;
     margin-top: 15px;
     border-bottom: 1px solid #888;
 }
 
-.review-box > ul > li > div {
+.top-review-box > li > div {
     float: left;
 }
 
-.review-thumbnail {
+.top-review-thumbnail {
     width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.review-thumbnail > img {
+.top-review-thumbnail > a > img {
     max-width: 200px;
 }
 
-.review-content {
+.top-review-content {
     margin-left: 10px;
 }
 
-.review-title {
-    font-size: 17px;
+.top-review-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px 0 0;
+}
+
+.top-review-title > a > h2 {
+    color: #000;
+    font-size: 18px;
     font-weight: bold;
+}
+
+.top-review-title > span {
+    font-size: 14px;
 }
 
 .review-in-content {
     width: 380px;
     height: 90px;
     margin-top: 5px;
-    font-weight: 700;
-    color: #5e5e5e;
+    font-size: 14px;
+    color: #797979;
 
     /* 여러줄 짜르기 */
     display: -webkit-box;
@@ -291,13 +311,27 @@ header {
     -webkit-box-orient: vertical;
     line-height: 22.5px;
 }
-/* 리뷰 설정 끝 */
+/* 리뷰 설정: 인기 끝 */
 
-#reviews > .top-review {
+/* 리뷰 설정: 공지사항 */
+#reviews > .notice-review {
     width: 50%;
 }
 
-#reviews > .lately-review {
-    width: 50%;
-    border: 1px solid orange;
+.notice-review > .review-box {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 98%;
+    height: 180px;
+    border-bottom: 1px solid #888;
 }
+
+.review-box > .notice-review-box {
+    height: 95%;
+}
+
+.notice-review-box > .notice {
+    width: 100%;
+    border: 1px solid black;
+}
+/* 리뷰 설정: 공지사항 끝 */

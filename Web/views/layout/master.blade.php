@@ -30,8 +30,16 @@
                 </div>
 
                 <ul class="main-menu">
-                    <li>
+                    <li class="main-many-menu">
                         <a href="#">모바일</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">안드로이드</a>
+                            </li>
+                            <li>
+                                <a href="#">iOS</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#">PC</a>
