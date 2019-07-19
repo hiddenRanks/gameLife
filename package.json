@@ -1,0 +1,28 @@
+{
+  "name": "gamelife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "prod": "webpack --mode=production",
+    "watch": "webpack --watch --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "_comment": [
+    "위쪽 devDepend... 은 --save-dev를 써서 받았으며 개발용으로만 쓰고 실제 서비스할때는 안쓸때 쓴다. (node.js)"
+  ],
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^12.3.0",
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "jquery": "^3.4.1"
+  }
+}
