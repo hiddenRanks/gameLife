@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    padding-top: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#head {
+    height: 100%;
+}
+
+#head > div {
+    display: block;
+    float: left;
+}
+
+/* 헤더: 로고 */
+#head > .logo {
+    width: 150px;
+    height: 100%;
+}
+/* 헤더: 로고 끝 */
+
+/* 헤더: 검색, 메뉴 전체 설정 */
+#head > .menu-box {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 헤더: 검색, 메뉴 전체 설정 끝 */
+
+/* 헤더: 전체 검색 창 */
+.menu-box > .all-game-search form {
+    margin-top: 5px;
+    padding: 0 2px;
+    width: 750px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-game-search > form > span {
+    color: #CA6F1E;
+}
+
+.all-game-search > form > .allSearch {
+    width: 710px;
+    height: 100%;
+    border: 2px solid #ffa353;
+    outline: none;
+    padding: 0 5px;
+}
+/* 헤더: 전체 검색 창 끝 */
+
+/* 헤더: 메뉴 */
+.menu-box > .main-menu {
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    border-bottom: 2px solid #E67E22;
+}
+
+.main-menu > li {
+    width: 25%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.main-menu > li > a {
+    display: block;
+    color: #000;
+}
+
+.main-menu > li:hover {
+    border-bottom: 2px solid #E67E22;
+}
+
+.sub-menu {
+    display: none;
+    background-color: #E67E22;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sub-menu > li > a {
+    display: block;
+    color: #fff;
+}
+
+.sub-menu > li > a:hover {
+    color: #000;
+}
+/* 헤더: 메뉴 끝 */
+
+/* 헤더: 로그인, 유저정보 틀 */
+.login-info {
+    width: 250px;
+    height: 100%;
+    position: relative;
+}
+/* 헤더: 로그인, 유저정보 틀 끝 */
+
+/* 헤더: 로그인 */
+.login-info > .login-btn {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ffa353;
+    border-radius: 2px;
+}
+
+.login-btn > a {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+/* 헤더: 로그인 */
+
+/* 헤더: 유저 정보 */
+.user-info {
+    margin-top: 13px;
+    width: 100%;
+    height: 40px;
+}
+
+.user-info > div {
+    float: left;
+}
+
+.user-info > .img-profile {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.user-info > .nick-name {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.nick-name > p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.user-edit {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+}
+
+.user-edit > .user-menu {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-menu > li {
+    width: 33.33%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.user-menu > li > a {
+    display: block;
+    color: #000;
+}
+
+.user-menu > li:hover {
+    border-bottom: 2px solid #E67E22;
+}
+/* 헤더: 유저 정보 */
+
+/* 메인 로고 */
+.main-logo {
+    width: 100%;
+    height: 400px;
+    background-color: #ddd;
+}
+
+#logo-img-text {
+    width: 1200px;
+    height: 100%;
+    border: 1px solid black;
+}
+/* 메인 로고 끝 */
+
+/* 리뷰 전체 설정 */
+#reviews > div {
+    float: left;
+    padding: 5px 5px 5px 0;
+}
+
+#reviews > div > .review-head {
+    height: 35px;
+    line-height: 35px;
+    background-color: #ffa75a;
+    border-radius: 1px;
+    padding-left: 10px;
+}
+
+.review-head > a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+/* 리뷰 전체 설정 끝 */
+
+/* 리뷰 가로 길이 */
+.review-box {
+    width: 100%;
+}
+/* 리뷰 가로 길이 끝 */
+
+/* 리뷰 설정: 인기 */
+#reviews > .top-review {
+    width: 50%;
+}
+
+.review-box > .top-review-box > li {
+    width: 100%;
+    height: 130px;
+    margin-top: 15px;
+    border-bottom: 1px solid #888;
+}
+
+.top-review-box > li > div {
+    float: left;
+}
+
+.top-review-thumbnail {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-review-thumbnail > a > img {
+    max-width: 200px;
+    max-height: 115px;
+}
+
+.top-review-content {
+    margin-left: 10px;
+}
+
+.top-review-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px 0 0;
+}
+
+.top-review-title > a > h2 {
+    width: 290px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.top-review-title > span {
+    font-size: 14px;
+}
+
+.review-in-content {
+    width: 380px;
+    height: 90px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #797979;
+
+    /* 여러줄 짜르기 */
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word; 
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 22.5px;
+}
+/* 리뷰 설정: 인기 끝 */
+
+/* 리뷰 설정: 공지사항 */
+#reviews > .notice-review {
+    width: 50%;
+}
+
+.notice-review > .review-box {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 98%;
+    height: 150px;
+    border-bottom: 1px solid #888;
+}
+
+.review-box > .notice-review-box {
+    height: 95%;
+}
+/* 리뷰 설정: 공지사항 끝 */
+
+/* 리뷰 설정: 최근 리뷰 */
+.lately-review {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.lately-review > .review-box {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 98%;
+    height: 390px;
+    border-bottom: 1px solid #888;
+}
+
+.review-box > .lately-review-box {
+    height: 95%;
+}
+/* 리뷰 설정: 최근 리뷰 끝 */
+
+/* 게싯글 디자인 */
+.board-list {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.board-list:last-child {
+    border-bottom: 0;
+}
+
+.board-list a {
+    color: #000;
+    font-size: 15px;
+}
+
+.board-list a:hover .title {
+    color: #CA6F1E;
+}
+
+.board-list > a > div {
+    float: left;
+}
+
+.board-front {
+    width: 470px;
+}
+
+.board-front > span {
+    display: block;
+    float: left;
+}
+
+.board-front > .id {
+    margin-right: 15px;
+    color: #6e6e6e;
+}
+
+.board-front > .title {
+    width: 440px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+
+.notice > a > .board-back {
+    float: right;
+}
+
+.board-back > .comment {
+    color: blue;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.board-back > .date {
+    color: #888;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* 게싯글 디자인 끝 */
+
+/* 로그인: 아이디, 비번 */
+.login-box {
+    position: absolute;
+    width: 500px;
+    height: 370px;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.login-box > .login-logo {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.login-box .login-input {
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-input > input {
+    margin-top: 15px;
+    padding: 0 5px;
+    width: 85%;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    background: transparent;
+}
+
+.login-input > input::placeholder {
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.login-box .login {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 85%;
+    height: 45px;
+    border: 0;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+.login-box > .login-signup {
+    margin: 0 auto;
+    width: 85%;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-signup > a {
+    color: #fff;
+}
+/* 로그인: 아이디, 비번 끝 */
+
+/* 검색 결과: 헤드 부분 */
+#searchs {
+    height: 800px;
+}
+
+.search-head {
+    margin-top: 20px;
+    padding: 5px 5px 5px 0;
+    border-bottom: 1px solid #888;
+}
+
+.search-head > span {
+    padding: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 100%;
+    border-bottom: 3px solid #000;
+}
+/* 검색 결과: 헤드 부분 끝 */
+
+/* 검색 결과: 게시판 틀 */
+.search-box {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #888;
+}
+/* 검색 결과: 게시판 틀 끝 */
