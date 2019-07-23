@@ -172,27 +172,15 @@
 
         <div class="review-box">
             <ul class="notice-review-box">
-                <li class="board-list notice">
+                <li class="main-board-list notice">
                     <a href="#">
                         <div class="board-front">
-                            <span class="id">1</span>
-                            <span class="title">리뷰 작성 규칙</span>
+                            <span class="main-id id">1</span>
+                            <span class="main-title title">리뷰 작성 규칙</span>
                         </div>
                         <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="board-list notice">
-                    <a href="#">
-                        <div class="board-front">
-                            <span class="id">2</span>
-                            <span class="title">사이트 규칙</span>
-                        </div>
-                        <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
+                            <span class="main-comment comment">+3</span>
+                            <span class="main-date date">07.14</span>
                         </div>
                     </a>
                 </li>
@@ -207,123 +195,27 @@
 
         <div class="review-box">
             <ul class="lately-review-box">
-                <li class="board-list lately-post">
+                <li class="main-board-list lately-post">
                     <a href="#">
                         <div class="board-front">
-                            <span class="id">1</span>
-                            <span class="title">리뷰 작성 규칙</span>
+                            <span class="main-id id">1</span>
+                            <span class="main-title title">리뷰 작성 규칙</span>
                         </div>
                         <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
+                            <span class="main-comment comment">+3</span>
+                            <span class="main-date date">07.14</span>
                         </div>
                     </a>
                 </li>
-                <li class="board-list lately-post">
+                <li class="main-board-list lately-post">
                     <a href="#">
                         <div class="board-front">
-                            <span class="id">2</span>
-                            <span class="title">사이트 규칙</span>
+                            <span class="main-id id">1</span>
+                            <span class="main-title title">리뷰 작성 규칙</span>
                         </div>
                         <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="board-list lately-post">
-                    <a href="#">
-                        <div class="board-front">
-                            <span class="id">1</span>
-                            <span class="title">리뷰 작성 규칙</span>
-                        </div>
-                        <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="board-list lately-post">
-                    <a href="#">
-                        <div class="board-front">
-                            <span class="id">2</span>
-                            <span class="title">사이트 규칙</span>
-                        </div>
-                        <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="board-list lately-post">
-                    <a href="#">
-                        <div class="board-front">
-                            <span class="id">1</span>
-                            <span class="title">리뷰 작성 규칙</span>
-                        </div>
-                        <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="board-list lately-post">
-                    <a href="#">
-                        <div class="board-front">
-                            <span class="id">2</span>
-                            <span class="title">사이트 규칙</span>
-                        </div>
-                        <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="board-list lately-post">
-                    <a href="#">
-                        <div class="board-front">
-                            <span class="id">1</span>
-                            <span class="title">리뷰 작성 규칙</span>
-                        </div>
-                        <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="board-list lately-post">
-                    <a href="#">
-                        <div class="board-front">
-                            <span class="id">2</span>
-                            <span class="title">사이트 규칙</span>
-                        </div>
-                        <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="board-list lately-post">
-                    <a href="#">
-                        <div class="board-front">
-                            <span class="id">1</span>
-                            <span class="title">리뷰 작성 규칙</span>
-                        </div>
-                        <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="board-list lately-post">
-                    <a href="#">
-                        <div class="board-front">
-                            <span class="id">2</span>
-                            <span class="title">사이트 규칙</span>
-                        </div>
-                        <div class="board-back">
-                            <span class="comment">+3</span>
-                            <span class="date">07.14</span>
+                            <span class="main-comment comment">+3</span>
+                            <span class="main-date date">07.14</span>
                         </div>
                     </a>
                 </li>
