@@ -23,6 +23,6 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^12.3.0",
     "@fortawesome/fontawesome-free": "^5.9.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
